@@ -1,0 +1,1 @@
+vagrant package --output centos7.box ---- to create a vagrant from an existing box
