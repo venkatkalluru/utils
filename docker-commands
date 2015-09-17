@@ -1,0 +1,2 @@
+docker run -d -t -i --name=<name> -v /code:/code <docker image> /bin/bash
+  -names the container rhel7 and mounts code dir in docker daemon machine into container
