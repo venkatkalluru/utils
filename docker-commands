@@ -2,3 +2,5 @@ docker run -d -t -i --name=<name> -v /code:/code <docker image> /bin/bash
   -names the container rhel7 and mounts code dir in docker daemon machine into container
 docker build -t abc/xyz .
   -builds the image with the abc/xyz
+Ctrl-p + Ctrl-q
+  -to detach from running container without stopping it
