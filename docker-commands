@@ -4,3 +4,4 @@ docker build -t abc/xyz .
   -builds the image with the abc/xyz
 Ctrl-p + Ctrl-q
   -to detach from running container without stopping it
+sudo docker exec -i -t <container> bash  
